@@ -1,0 +1,29 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main_banner{
+  padding: 30px;
+  .container{
+    width: 700px;
+    display: flex;
+    input{
+      margin: 0 50px 0 10px;
+      height: 20px;
+      border-style: none;
+      border: 1px solid black;
+      &:hover{
+        border-color: #121281;
+      }
+    }
+    .new_div{
+      background-color: #121281;
+      .title{
+        font-size: 20px;
+        color: white;
+      }
+    }
+  }
+}
