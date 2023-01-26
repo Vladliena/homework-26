@@ -11,14 +11,8 @@
   width: 700px;
   display: flex;
 }
-.main_banner .container input {
-  margin: 0 50px 0 10px;
-  height: 20px;
-  border-style: none;
-  border: 1px solid black;
-}
-.main_banner .container input:hover {
-  border-color: #121281;
+.main_banner .container .main_text {
+  margin-right: 50px;
 }
 .main_banner .container .new_div {
   background-color: #121281;

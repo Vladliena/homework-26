@@ -9,14 +9,8 @@
   .container{
     width: 700px;
     display: flex;
-    input{
-      margin: 0 50px 0 10px;
-      height: 20px;
-      border-style: none;
-      border: 1px solid black;
-      &:hover{
-        border-color: #121281;
-      }
+    .main_text{
+      margin-right: 50px;
     }
     .new_div{
       background-color: #121281;
